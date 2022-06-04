@@ -20,17 +20,21 @@ namespace UserAPI.Controllers
         {
             _context = context;
         }
-
-        // GET: api/user
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> Getusers()
+        public async Task<ActionResult<IEnumerable<User>>> Index()
         {
             return await _context.Users.ToListAsync();
         }
+        // GET: api/user
+        
+        /*public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        {
+            return await _context.Users.ToListAsync();
+        }*/
 
         // GET: api/user/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> Getuser(int id)
+        public async Task<ActionResult<User>> GetUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
 
