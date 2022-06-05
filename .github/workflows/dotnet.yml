@@ -24,4 +24,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish First-Fullstack-app/UserAPI.csproj -c Release -o website
+      run: dotnet publish UserAPI/UserAPI.csproj -c Release -o website
