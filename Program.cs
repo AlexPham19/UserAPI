@@ -2,6 +2,7 @@ using UserAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var secretKeyConnection = builder.Configuration["ConnectionStrings:AzureConnection"];
 
 // Add services to the container.
 
@@ -11,11 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<UserDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+options.UseSqlServer(secretKeyConnection));
 
 var app = builder.Build();
 
-app.UseCors(options => options.WithOrigins("http://localhost:3000")
+app.UseCors(options => options.AllowAnyOrigin()
 .AllowAnyMethod()
 .AllowAnyHeader()
 );
@@ -25,6 +26,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
 }
 
 app.UseHttpsRedirection();

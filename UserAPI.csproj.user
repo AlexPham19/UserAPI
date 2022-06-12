@@ -10,5 +10,6 @@
     <WebStackScaffolding_DbContextTypeFullName>UserAPI.Models.UserDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\Properties\PublishProfiles\UserAPI20220605151559 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

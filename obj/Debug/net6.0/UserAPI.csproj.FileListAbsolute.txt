@@ -263,3 +263,10 @@ C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.N
 C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\obj\Debug\net6.0\UserAPI.RazorAssemblyInfo.cache
 C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\obj\Debug\net6.0\UserAPI.RazorAssemblyInfo.cs
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\NITRO\Documents\My React Project\FirstFullWeb\Quiz-App-with-React-Asp.Net-Core-API-Material-UI\UserAPI\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
